@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>page3</title>
+</head>
+<body>
+    <nav class="nav-bar">
+        <h1>
+            Download
+        </h>
+    </nav>
+    <div class="main">
+        <button id="p3b1"><img src="svgs/arrow-left-1-svgrepo-com.svg" alt=""></button>
+        <div class="images-2">
+            <img id="anwar" src="images/boy.png" alt="">
+        </div>
+        <div class="skill-2">
+            <div class="button"><a href="/pdfs/anwar cv latest.pdf" download="">CV</a></div>
+            <div class="button"><a href="/pdfs/Work.pdf" download="">ART WORK</a></div>
+        </div>
+       
+        <button id="p3b2"><img src="svgs/arrow-right-1-svgrepo-com.svg" alt=""></button>
+    </div>
+    <script>
+        document.getElementById("p3b2").addEventListener("click", function() {
+  window.location.href = "page1.html";
+});
+
+document.getElementById("p3b1").addEventListener("click", function() {
+  window.location.href = "page2.html";
+});
+    </script>
+</body>
+</html>
